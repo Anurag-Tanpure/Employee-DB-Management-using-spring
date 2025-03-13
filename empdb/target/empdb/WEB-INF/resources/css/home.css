@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Apply background color to the entire page */
+body {
+    font-family: Arial, sans-serif; /* Use Arial font */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Default text color */
+}
+
+/* Header styles */
+.header {
+    background-color: #007bff; /* Blue background color for header */
+    padding: 20px 0; /* Add padding to the top and bottom */
+}
+
+.container {
+    max-width: 1200px; /* Set maximum width for content */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 0 20px; /* Add padding to the sides */
+}
+
+.logo {
+    color: #fff; /* White text color for logo */
+    font-size: 2rem; /* Large font size */
+}
+
+.navigation ul {
+    list-style: none; /* Remove bullet points from list */
+}
+
+.navigation ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+.navigation ul li a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.2rem; /* Medium font size */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('images/hero-bg.jpg'); /* Add hero background image */
+    background-size: cover; /* Cover the entire section with the background image */
+    color: #fff; /* White text color for hero section */
+    padding: 100px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center text inside container */
+}
+
+.hero h2 {
+    font-size: 3rem; /* Extra large font size */
+    margin-bottom: 20px; /* Add spacing below heading */
+}
+
+.hero p {
+    font-size: 1.5rem; /* Large font size for paragraph */
+    margin-bottom: 30px; /* Add spacing below paragraph */
+}
+
+.btn {
+    display: inline-block; /* Display as inline block */
+    background-color: #007bff; /* Blue background color for button */
+    color: #fff; /* White text color for button */
+    padding: 15px 30px; /* Add padding to the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from button */
+    font-size: 1.2rem; /* Medium font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Features section styles */
+.features {
+    padding: 100px 0; /* Add padding to the top and bottom */
+}
+
+.features h2 {
+    font-size: 2.5rem; /* Large font size for section heading */
+    text-align: center; /* Center text inside container */
+    margin-bottom: 50px; /* Add spacing below heading */
+}
+
+.feature {
+    margin-bottom: 50px; /* Add spacing between features */
+}
+
+.feature h3 {
+    font-size: 2rem; /* Large font size for feature heading */
+    margin-bottom: 20px; /* Add spacing below heading */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #343a40; /* Dark background color for footer */
+    color: #fff; /* White text color for footer */
+    padding: 30px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center text inside container */
+}
